@@ -1,0 +1,10 @@
+{
+  "taobao": {
+    "jio": {
+      "title": "Who wants to buy things from taobao?",
+      "date": "2019-05-05",
+      "cta-text": "Me!", 
+      "cta-action": "console.log('@TODO: show form for details');"
+    }
+  }
+}
