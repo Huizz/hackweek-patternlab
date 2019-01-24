@@ -2,10 +2,16 @@
  * YOUR STYLES HERE
  */
 
+ .btn {
+  padding: 8px 12px 8px 12px;
+  float: right;
+  
+ }
+
  .jio {
    border: 1px solid black;
    border-radius: 4px;
-   padding: 16px;
+   padding: 24px 20px 24px 20px;
    overflow: hidden; /* To keep auto height of parent when child is floated*/
    margin-bottom: 16px;
  }
@@ -24,8 +30,67 @@
    float: right;
  }
 
- ol {
+ol {
    list-style-position: inside;
    padding-left: 0;
  }
 
+body {
+    font-size: 16px;
+    font-style: rgb(32, 32, 32);
+
+}
+
+/*Team Name Bold*/
+
+h3 { 
+    font-size: 18px;
+    font-weight: 800;
+    font-style: rgb(32, 32, 32);
+}
+
+h3.semibold {
+    font-weight: 600;
+    font-style: rgb(32, 32, 32);
+
+}
+
+/*Sprint Number*/
+
+h6 {
+   font-size: 14px;
+   font-style: rgb(32, 32, 32);
+ }
+
+.avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+  background-color: rgb(235, 235, 235);
+  margin: 4px 0 8px 0;
+}
+
+.avatar.mini-light {
+  background-color: rgb(235, 235, 235);
+  width: 24px;
+  height: 24px;
+  margin: 0 -12px 24px 0;
+  display: inline-block;
+}
+
+.avatar.mini-dark {
+  background-color: rgb(202, 202, 202);
+  width: 24px;
+  height: 24px;
+  margin: 0 -12px 24px 0;
+  display: inline-block;
+}
+
+.project__body {
+  border-bottom: 2px solid rgb(235, 235, 235);
+  margin: 0 8px 0 8px;
+}
+
+.project__name {
+  padding-left: 0;
+}
