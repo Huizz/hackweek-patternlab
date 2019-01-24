@@ -2,25 +2,60 @@
  * YOUR STYLES HERE
  */
 
- .jio {
-   border: 1px solid black;
-   border-radius: 4px;
-   padding: 16px;
-   overflow: hidden; /* To keep auto height of parent when child is floated*/
-   margin-bottom: 16px;
- }
+.jio {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 16px;
+  overflow: hidden; /* To keep auto height of parent when child is floated*/
+  margin-bottom: 16px;
+}
 
- .jio:last-child {
-   margin-bottom: 0;
- }
+.jio:last-child {
+  margin-bottom: 0;
+}
 
- .jio__title {
-   margin-bottom: 8px;
- }
+.jio__title {
+  margin-bottom: 8px;
+}
 
- .jio__btn {
-   margin-top: 16px;
-   display: block;
-   float: right;
- }
-
+.jio__btn {
+  margin-top: 16px;
+  display: block;
+  float: right;
+}
+.project-stack-list {
+  width: 400px;
+}
+.project-stack {
+  margin: 10px 0px;
+  border-bottom: 1px solid #e4e4e4;
+  padding: 10px 0 20px 10px;
+}
+.project-stack .title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.project-stack .description {
+  margin: 10px 0;
+}
+.project-stack .sprint {
+  margin-left: 10px;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.project-stack .icons {
+  font-size: 2.2rem;
+}
+.project-stack .members {
+}
+.project-stack .memberlist {
+  position: absolute;
+  background: #333;
+  color: white;
+  padding: 5px 10px;
+  width: 100px;
+  display: none;
+}
+.members:hover + .memberlist {
+  display: block;
+}
