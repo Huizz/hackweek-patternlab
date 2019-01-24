@@ -1,11 +1,7 @@
-<div>
-  {{#taobao}}
-  <div class='jio__title'>{{jio.title}}</div>
-  {{#jio.date}}
-  <div class='jio__date'>{{jio.date}}</div>
-  {{/jio.date}}
-  <button class='btn btn-info' data-toggle='modal' data-target='#joinJioModal'>{{jio.cta-text}}</button>
-  {{/taobao}}
+<div class='jio'>
+  <div class='jio__title'>This is a jio</div>
+  <div class='jio__date'>2019-02-11</div>
+  <button class='btn btn-info jio__btn' data-toggle='modal' data-target='#joinJioModal'>Me!</button>
 </div>
 <div class='modal' id='joinJioModal' tabindex='-1' role='dialog'>
   <div class='modal-dialog' role='document'>
