@@ -115,3 +115,7 @@
 .members:hover + .memberlist {
   display: block;
 }
+ol {
+  list-style-position: inside;
+  padding-left: 0;
+}
