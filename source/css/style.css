@@ -1,3 +1,26 @@
 /*
  * YOUR STYLES HERE
  */
+
+ .jio {
+   border: 1px solid black;
+   border-radius: 4px;
+   padding: 16px;
+   overflow: hidden; /* To keep auto height of parent when child is floated*/
+   margin-bottom: 16px;
+ }
+
+ .jio:last-child {
+   margin-bottom: 0;
+ }
+
+ .jio__title {
+   margin-bottom: 8px;
+ }
+
+ .jio__btn {
+   margin-top: 16px;
+   display: block;
+   float: right;
+ }
+
