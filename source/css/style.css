@@ -1,6 +1,33 @@
 /*
  * YOUR STYLES HERE
- */
+*/
+
+.floorplan__area {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.mol {
+  background: #f08700;
+}
+.uiux {
+  background: #efca08;
+}
+.wogaa {
+  background: #00a6a6;
+}
+.stand-up-area {
+  background: whitesmoke;
+}
+.main-area {
+  background: whitesmoke;
+}
+.eol {
+  background: #bbdef0;
+}
 
 .jio {
   border: 1px solid black;
