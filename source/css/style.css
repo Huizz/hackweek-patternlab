@@ -4,7 +4,6 @@
 
  .btn {
   padding: 8px 12px 8px 12px;
-  float: right;
   
  }
 
@@ -25,8 +24,12 @@
  }
 
  .jio__btn {
-   margin-top: 16px;
-   display: block;
+   margin: 16px;
+   display: inline-block;
+ }
+
+ .jio-card-footer {
+   overflow: hidden;
    float: right;
  }
 
@@ -66,24 +69,44 @@ h6 {
   width: 44px;
   height: 44px;
   border-radius: 22px;
-  background-color: rgb(235, 235, 235);
   margin: 4px 0 8px 0;
+  background-image: url("https://picsum.photos/200/300/?random");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .avatar.mini-light {
   background-color: rgb(235, 235, 235);
   width: 24px;
   height: 24px;
-  margin: 0 -12px 24px 0;
+  vertical-align: top;
+  margin: 8px -12px 0 0;
   display: inline-block;
+  background-image: url("https://picsum.photos/200/300/?random");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .avatar.mini-dark {
   background-color: rgb(202, 202, 202);
   width: 24px;
   height: 24px;
-  margin: 0 -12px 24px 0;
+  vertical-align: top;
+  margin: 8px -12px 0 0;
   display: inline-block;
+  background-image: url("https://picsum.photos/6858/4574?image=1080");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.avatar__mini__group {
+  display: inline-block;
+  vertical-align: top;
+  margin: 16px 24px 16px 0;
 }
 
 .project__body {
