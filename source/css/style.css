@@ -24,6 +24,36 @@
   padding: 8px;
 }
 
+.entrance-door {
+  width: 5px;
+  height: 40px;
+  background: lightgray;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  padding: 8px;
+}
+
+.stand-up-door {
+  width: 40px;
+  height: 5px;
+  background: lightgray;
+  position: absolute;
+  top: 0;
+  right: 40px;
+  padding: 8px;
+}
+
+.pantry-door {
+  width: 40px;
+  height: 5px;
+  background: lightgray;
+  position: absolute;
+  top: 0;
+  left: 130px;
+  padding: 8px;
+}
+
 .mol {
   border-radius: 120px 0 0 0;
   background: #f08700;
@@ -47,13 +77,26 @@
   flex-direction: column;
 }
 .main-area {
-  border-radius: 0 0 0 120px;
+  border-top: 2px solid lightgray;
+  border-left: 2px solid lightgray;
+  border-radius: 120px 0 0 0;
   background: repeating-linear-gradient(
     -55deg,
     whitesmoke,
     whitesmoke 10px,
     white 10px,
     white 20px
+  );
+}
+.entrance {
+  border-left: 2px solid lightgray;
+  border-radius: 0 0 120px 0;
+  background: repeating-linear-gradient(
+    -55deg,
+    white,
+    white 10px,
+    whitesmoke 10px,
+    whitesmoke 20px
   );
 }
 .eol {
@@ -65,7 +108,7 @@
   border-radius: 4px;
   padding: 16px;
   overflow: hidden;
-  /* To keep auto height of parent when child is floated*/
+  /* To keep auto height of parent when child is floated */
   margin-bottom: 16px;
 }
 .jio:last-child {
@@ -80,31 +123,34 @@
   float: right;
 }
 /* Project Stack */
-.project-stack-list {
+.widget-card-list {
 }
-.project-stack {
+.widget-card {
   margin: 10px 0px;
   box-shadow: 1px 1px 2px 1px rgba(204, 204, 204, 1);
   padding: 10px 15px 20px;
 }
-.project-stack .title {
+.widget-card .title {
   font-size: 1.2rem;
   font-weight: bold;
 }
-.project-stack .description {
+.widget-card .description {
   margin: 10px 0;
 }
-.project-stack .sprint {
+.widget-card .description a {
+  margin: 5px;
+}
+.widget-card .sprint {
   margin-left: 10px;
   font-weight: 300;
   font-size: 0.9rem;
 }
-.project-stack .icons {
+.widget-card .icons {
   font-size: 2.2rem;
 }
-.project-stack .members {
+.widget-card .members {
 }
-.project-stack .memberlist {
+.widget-card .memberlist {
   position: absolute;
   background: #333;
   color: white;
@@ -114,6 +160,10 @@
 }
 .members:hover + .memberlist {
   display: block;
+}
+.widget-card .percent {
+  text-align: center;
+  font-size: 3.5rem;
 }
 ol {
   list-style-position: inside;
