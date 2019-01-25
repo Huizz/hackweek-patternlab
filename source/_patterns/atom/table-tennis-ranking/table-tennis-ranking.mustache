@@ -1,0 +1,21 @@
+<div class='widget-card'>
+
+    <div class="title" style="border-bottom: 3px solid #000000;">Table Tennis Rankings<span class='sprint'> Elimination</span></div>
+    <script>var i=1;</script>
+    <div class="ranklist">
+        {{#players}}
+            <div class="row rankrow">
+                <div class='col-3'><script>document.write(i);i++;</script></div>
+                <div class='col-8 offset-1'> {{.}}</div>
+            </div>
+        {{/players}}
+        
+    </div>
+    
+    <div class="icons">
+        <i class="fas fa-table-tennis"></i>
+    </div>
+    <span class="members">18 Players</span>
+</div>
+
+
