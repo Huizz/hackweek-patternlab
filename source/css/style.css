@@ -2,6 +2,19 @@
  * YOUR STYLES HERE
 */
 
+ .btn {
+  padding: 8px 12px 8px 12px;
+  
+ }
+
+ .jio {
+   border: 1px solid black;
+   border-radius: 4px;
+   padding: 24px 20px 24px 20px;
+   overflow: hidden; /* To keep auto height of parent when child is floated*/
+   margin-bottom: 16px;
+ }
+
 .floorplan__area {
   height: 120px;
   display: flex;
@@ -22,6 +35,101 @@
   right: 0;
   margin: 8px;
   padding: 8px;
+}
+
+ .jio__btn {
+   margin: 16px;
+   display: inline-block;
+ }
+
+ .jio-card-footer {
+   overflow: hidden;
+   float: right;
+ }
+
+ol {
+   list-style-position: inside;
+   padding-left: 0;
+ }
+
+body {
+    font-size: 16px;
+    font-style: rgb(32, 32, 32);
+
+}
+
+/*Team Name Bold*/
+
+h3 { 
+    font-size: 18px;
+    font-weight: 800;
+    font-style: rgb(32, 32, 32);
+}
+
+h3.semibold {
+    font-weight: 600;
+    font-style: rgb(32, 32, 32);
+
+}
+
+/*Sprint Number*/
+
+h6 {
+   font-size: 14px;
+   font-style: rgb(32, 32, 32);
+ }
+
+.avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+  margin: 4px 0 8px 0;
+  background-image: url("https://picsum.photos/200/300/?random");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.avatar.mini-light {
+  background-color: rgb(235, 235, 235);
+  width: 24px;
+  height: 24px;
+  vertical-align: top;
+  margin: 8px -12px 0 0;
+  display: inline-block;
+  background-image: url("https://picsum.photos/200/300/?random");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.avatar.mini-dark {
+  background-color: rgb(202, 202, 202);
+  width: 24px;
+  height: 24px;
+  vertical-align: top;
+  margin: 8px -12px 0 0;
+  display: inline-block;
+  background-image: url("https://picsum.photos/6858/4574?image=1080");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.avatar__mini__group {
+  display: inline-block;
+  vertical-align: top;
+  margin: 16px 24px 16px 0;
+}
+
+.project__body {
+  border-bottom: 2px solid rgb(235, 235, 235);
+  margin: 0 8px 0 8px;
+}
+
+.project__name {
+  padding-left: 0;
 }
 
 .entrance-door {
